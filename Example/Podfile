@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TNReactNative_Tests' do
+  pod 'TNReactNative', :path => '../'
+  
+  
+end
