@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TNReactNative-debug'
-  s.version          = '0.6.3'
+  s.version          = '0.66.3'
   s.summary          = 'A short description of TNReactNative.'
 
 # This description is used to generate tags and improve search results.
@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
+
+  spec.ios.deployment_target  = '10.0'
 
   s.homepage         = 'https://github.com/taoyeming/TNReactNative-debug.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
