@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  spec.ios.deployment_target  = '10.0'
+  s.ios.deployment_target  = '10.0'
 
   s.homepage         = 'https://github.com/taoyeming/TNReactNative-debug.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
